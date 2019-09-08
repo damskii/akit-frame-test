@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+
+      <!-- ACTION - insert a title with no spaces (use _) -->
+      <title>assimilate_kit</title>
+
+      <!-- script tags start - do not modify -->
+         <meta charset="utf-8">
+	       <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+
+         <script type="text/javascript" src="properties.js"></script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/eventemitter3/4.0.0/index.js" type="text/javascript"></script>
+         <script src="https://cdn.jsdelivr.net/gh/assimilate-interactive/akit/lib/platform/jsartoolkit5/artoolkit.min.js"></script>
+         <script src="https://cdn.jsdelivr.net/gh/assimilate-interactive/akit/akit-aframe-master.js" type="text/javascript"></script>
+         <script src="https://cdn.jsdelivr.net/gh/assimilate-interactive/akit/lib/platform/arjs/threex-artoolkitcontext.js"></script>
+         <script src="https://cdn.jsdelivr.net/gh/assimilate-interactive/akit/akit-frame.js" type="text/javascript"></script>
+         <script type="text/javascript" src="app.js"></script>
+      <!-- script tags end -->
+
+     </head>
+
+     <body>
+       <!--init tags - do not modify -->
+       <script>akit.init()</script>
+       <div id="appscene"></div>
+        <!-- init tags end -->
+
+
+         <!-- aframe scene start -->
+         <a-scene akit>
+
+             <!-- ACTION - aframe assets - add here -->
+             <a-assets>
+                <!--  <akit-asset-item name="scene" group="group1" dir="sonic_the_hedgehog" marker="1" filetype="gltf" title="sonic_the_hedgehog" desc="sonic_the_hedgehog"></akit-asset-item> -->
+
+               <!--    <a-asset-item id="akit-item" group="group1" name="obj1"></a-asset-item>-->
+                <!--  <a-asset-kit></a-asset-kit> -->
+             </a-assets>
+
+             <a-anchor name="test" group="test" marker="1">
+
+         		 <!-- ACTION - add aframe here-->
+
+         		  <a-sphere position="0 0 0" radius="1" color="#EF2D5E" material="opacity: 0.5; side:double; color:red;" ></a-sphere>
+
+
+
+         		</a-anchor>
+
+       </a-scene>
+       <!-- aframe scene end-->
+
+     </body>
+
+ </html>
