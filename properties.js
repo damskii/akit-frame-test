@@ -11,10 +11,9 @@ AKIT_PROPS = {
 
   },
 
-
   arjs: {
 
-    cameraParametersUrl: '/assets/platform/arjs/camera_para.dat',
+    cameraParametersUrl: 'https://cdn.jsdelivr.net/gh/assimilate-interactive/akit/assets/platform/arjs/camera_para.dat',
   //  patternUrl: APP.markerDirectory,
 
   },
